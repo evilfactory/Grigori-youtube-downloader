@@ -1,0 +1,9 @@
+#banner {
+	height:100vh;
+	background-image: linear-gradient(to right, white 20%, black 100%), url('/bg-image.jpg');
+	background-blend-mode: color-dodge;
+}
+
+#banner .container-fluid .jumbotron {
+	background: transparent;
+}
