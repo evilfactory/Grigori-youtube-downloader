@@ -20,11 +20,19 @@
                     <div class="col-md-4 offset-md-4">
                         <form action="/download/" method="GET">
                             <div class="form-group">
-                                <input class="form-control" type="text" name="url" placeholder="https://www.youtube.com/watch?v=MtN1YnoL46Q" required />
-                            </div>
-                            <div class="form-group text-center">
+                                <input class="form-control" type="text" name="url" placeholder="https://www.youtube.com/watch?v=j5C6X9vOEkU" required />
+							</div>
+
+							<select class="form-control" name="videotype">
+								<option>480p mp4</option>
+								<option>360p mp4</option>
+								<option>720p mp4</option>
+								<option>audio mp3</option>
+							</select> 
+
+                            <div class="form-group text-center mt-4">
                                 <input class="btn btn-primary" type="submit" value="Download" />
-                            </div>
+							</div>
                         </form>
                     </div>
                 </div>

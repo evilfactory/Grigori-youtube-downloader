@@ -4,13 +4,14 @@
   "description": "",
   "main": "downloader-server.js",
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node downloader-server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node downloader-server.js"
   },
-  "author": "EvilFactory <fredeinbusiness@outlook.com> (https://evilfactory.tk)",
+  "author": "EvilFactory",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "ytdl-core": "^4.4.3"
+    "ffmpeg-static": "^4.2.7",
+    "ytdl-core": "^4.4.4"
   }
 }
